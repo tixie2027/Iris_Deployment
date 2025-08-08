@@ -1,10 +1,19 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
+# import joblib (removed)
+from sklearn.datasets import load_iris
+from sklearn.ensemble import RandomForestClassifier
+
+# Load dataset and train classifier
+iris = load_iris()
+X, y = iris.data, iris.target
+clf = RandomForestClassifier()
+clf.fit(X, y)
+
 
 def predict(data):
-    clf = joblib.load("rf_model.sav")
+    
     return clf.predict(data)
 
 # Function to map classes to images
