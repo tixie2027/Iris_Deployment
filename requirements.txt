@@ -4,5 +4,5 @@ wheel
 numpy
 joblib==1.2.0
 streamlit
-scikit-learn
+sscikit-learn==1.2.2
 pandas
