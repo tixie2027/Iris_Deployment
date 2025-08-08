@@ -3,6 +3,5 @@ setuptools
 wheel
 numpy
 joblib==1.2.0
-streamlit
-sscikit-learn==1.2.2
-pandas
+sstreamlit
+scikit-learn
