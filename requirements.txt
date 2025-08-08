@@ -2,6 +2,7 @@ pip==24.3.1
 setuptools
 wheel
 numpy
-joblib=
-sstreamlit
+joblib
+streamlit
 scikit-learn
+pandas
